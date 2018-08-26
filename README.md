@@ -6,6 +6,14 @@
 
 ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg) ![PRsWelcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) ![PythonVersion](https://img.shields.io/pypi/pyversions/Django.svg)
 
+## Quick Start 
+```buildoutcfg
+conda create -n absa-env
+conda activate absa-env
+conda install -c conda-forge tensorboardx==1.2
+conda install pytorch torchvision -c pytorch
+```
+
 ## Requirement
 
 * PyTorch 0.4.0
